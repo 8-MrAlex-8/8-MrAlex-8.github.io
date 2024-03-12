@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">            <!-- Body Text: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">   <!-- Header Text: Almarai -->
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.CSS" rel=" stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PHP Tutorial Landing Page</title>
+</head>
+
+<body>
+
+    <!-- Navbar component -->
+
+    <nav class="shadow-2xl bg-gradient-to-r from-violet-800 to-indigo-900 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-black dark:border-black">
+        <div class="max-w-screen-xl flex flex-wrap justify-between mx-auto p-5">
+            <div class="justify-between hidden w-full md:flex md:w-auto md:order-1 navbar" id="navbar-sticky">
+
+                <ul class="inline flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 
+                rtl:space-x-reverse md:flex-row md:mt-0 ">
+                    <li><a href = "index.html"> Home </a></li>
+                    <li id = "active"><a href = "intro.html"> Intro to PHP </a></li>
+                    <li><a href = "#"> Basic Syntax </a></li>
+                    <li><a href = "#"> Hello World </a></li>
+                    <li><a href = "#"> Variables </a></li>
+                    <li><a href = "#"> Conditional Statements </a></li>
+                    <li><a href = "#"> Loops </a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <section class="text-xl text-center text-white inter leading-loose">
+
+        <div class="relative">
+
+            <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-purple-800 to-purple-600">
+                <div class = "mt-20 text-3xl text-white almarai-extrabold leading-tight">
+                    In creating dynamic and interactive web applications, PHP (Hypertext Preprocessor), <br> 
+                    is very widely used; it can also be incorporated in HTML. <br><br>
+                </div>
+
+                <p>
+                    PHP has a wide range of applications not just website development but also the development of applications, and customer relationship management. <br> 
+                    Being one of the first server-side languages, PHP made it simple to add new features to websites without depending on stored information in external files. <br>
+                    Many popular and successful commercial websites also use this language, including Wikipedia, Vimeo, Etsy, Mailchimp, Yahoo, Wordpress, Flickr, and Magento. <br><br>
+                </p>
+            </div>
+
+            <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-indigo-900 to-blue-400">
+                <p> 
+                    Furthermore, it's interesting to note that, according to W3Techs, 77.6% of all websites use PHP for the server-side of their activities. <br>
+                    At this point, it should be clear that developing a website is vital to any genuine attempt at promoting the business. <br>
+                    Without it, building a name for oneself on a global scale would be an incredibly challenging undertaking. <br><br>
+                </p>
+            
+                <div class = "text-3xl text-white almarai-extrabold leading-tight">
+                    With that, allow us to help you get to know the amazing piece of technology that is PHP!<br>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+</body>
+
+</html>
+
+

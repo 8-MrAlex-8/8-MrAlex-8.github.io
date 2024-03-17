@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">            <!-- Body Text: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">   <!-- Header Text: Almarai -->
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.CSS" rel=" stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PHP Tutorial Landing Page</title>
+</head>
+
+<body>
+
+    <!-- Navbar component -->
+
+    <nav class="shadow-xl bg-violet-800 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-violet-800 dark:border-violet-800">
+        <div class="max-w-screen-xl flex flex-wrap justify-between mx-auto p-5">
+            <div class="justify-between hidden w-full md:flex md:w-auto md:order-1 navbar -my-2" id="navbar-sticky">
+
+                <ul class="inline flex flex-col items-center p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 
+                rtl:space-x-reverse md:flex-row md:mt-0 ">
+                    <li><img src = "images\fav.png" class = "w-10"></li>
+                    <li><a href = "index.html"> Home </a></li>
+                    <li><a href = "intro.html"> Introduction </a></li>
+                    <li id = "active"><a href = "about.html"> About PHP </a></li>
+                    <li><a href = "#"> Hello World </a></li>
+                    <li><a href = "#"> Variables </a></li>
+                    <li><a href = "#"> Conditional Statements </a></li> 
+                    <li><a href = "#"> Loops </a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="text-left text-black inter leading-loose mt-32 mx-12">
+            <h2 class = "text-2xl mb-6"> What is PHP? </h2>
+            <div class = "text-l ml-12">
+                <p>
+                    PHP stands for Hypertext Processor. It is a powerful tool for dynamic and interactive web pages that is widely used and downloaded for free. 
+                    Scripts of this language are also executed on the server.
+                </p>
+
+                <div class = "ml-16 my-8">
+                    <ul style = "list-style-type: circle;">
+                        <li> Text, HTML, CSS, JavaScript, and PHP code can all be found in PHP files. </li>
+                        <li> The server runs PHP code, and the browser receives the output as plain HTML as result. </li>
+                        <li> <b><i>".php"</i></b> is the extension for PHP files. </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="text-left text-black inter leading-loose mt-20 mx-12">
+            <h2 class = "text-2xl mb-6"> Why PHP? </h2>
+            <div class = "text-l ml-12">
+                There are a lot of platforms which support PHP. You'll probably notice that PHP is supported by Operating Systems such as
+                Windows, Linux, Unix, and MacOS. It also works with nearly all servers in use today (Apache, IIS, etc.) and is also compatible 
+                with a variety of databases (such as MongoDB, MySQL, PostgreSQL, and SQLite3). Php is also free-of-charge, unlike other softwares 
+                where there are subscription dues. Lastly, PHP is very simple to learn and it performs well on servers. <br><br>
+                
+                You can visit <a href = "www.php.net">www.php.net</a> to see the official PHP download page. 
+                
+            </div>
+        </div>
+
+        <div class="text-left text-black inter leading-loose mt-20 mx-12">
+            <h2 class = "text-2xl mb-6"> What's new in PHP 8? </h2>
+            <div class = "text-l ml-12">
+                The current version of PHP is PHP8 which is significantly faster than the prior widely-used stable release.
+                It has also readily-improved error handling in this version, and it has been modified to have more stringent 
+                type declarations and new operators. Other benefits include:
+
+                <div class = "ml-16 my-8">
+                    <ul style = "list-style-type: circle;" >
+                        <li> <b>Union Types:</b> </li>
+                        <li> <b>JIT Compilation:</b> </li>
+                        <li> <b>Named Arguments:</b> </li>
+                        <li> <b>Match Expressions:</b> </li>
+                        <li> <b>Attributes:</b> </li>
+                        <li> <b>Nullsafe Operator:</b> </li>
+                    </ul>
+                </div>
+
+                <p> Among many others. </p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</html>
+
+

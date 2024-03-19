@@ -16,24 +16,26 @@
     <title>PHP Tutorial Landing Page</title>
 </head>
 
-<body class = "h-screen bg-gradient-to-r from-indigo-600 to-indigo-800">
-    <div class = "mt-5">
+<body class = "bg-gradient-to-r from-indigo-600 to-indigo-800">
+    <div>
 
         <!-- Navbar component -->
 
-        <nav class="shadow-2xl bg-gradient-to-r from-violet-800 to-indigo-900 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-black dark:border-black">
+        <nav class="shadow-2xl bg-violet-800 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-black">
             <div class="max-w-screen-xl flex flex-wrap justify-between mx-auto p-5">
-                <div class="justify-between hidden w-full md:flex md:w-auto md:order-1 navbar" id="navbar-sticky">
+                <div class="justify-between hidden w-full md:flex md:w-auto md:order-1 navbar -my-2" id="navbar-sticky">
     
-                    <ul class="inline flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 
+                    <ul class="inline flex flex-col items-center p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 
                     rtl:space-x-reverse md:flex-row md:mt-0 ">
+                        <li><img src = "images\fav.png" class = "w-10"></li>
                         <li id = "active"><a href = "index.html"> Home </a></li>
-                        <li><a href = "intro.html"> Intro to PHP </a></li>
-                        <li><a href = "#"> Basic Syntax </a></li>
-                        <li><a href = "#"> Hello World </a></li>
-                        <li><a href = "#"> Variables </a></li>
-                        <li><a href = "#"> Conditional Statements </a></li>
-                        <li><a href = "#"> Loops </a></li>
+                        <li><a href = "intro.html"> Introduction </a></li>
+                        <li><a href = "about.html"> About PHP</a></li>
+                        <li><a href = "installation.html"> Installation </a></li>
+                        <li><a href = "basic.html"> Basic Syntax </a></li>
+                        <li><a href = "conditionals.html"> Conditionals </a></li>
+                        <li><a href = "variables.html"> Variables </a></li>
+                        <li><a href = "loops.html"> Loops </a></li>
                     </ul>
                     
                 </div>
@@ -53,7 +55,7 @@
 
             <br>
 
-            <p class = "text-xl text-gray-50 inter-semibold">such as what it is, where it can be used, why it is important,<br> 
+            <p class = "text-md text-gray-50 inter">such as what it is, where it can be used, why it is important,<br> 
                 what its guiding principles are, and many more.<br><br>
 
                 As we all know, web development is what holds everything together<br> 

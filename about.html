@@ -20,7 +20,7 @@
 
     <!-- Navbar component -->
 
-    <nav class="shadow-xl bg-violet-800 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-violet-800 dark:border-violet-800">
+    <nav class="shadow-2xl bg-violet-800 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-black">
         <div class="max-w-screen-xl flex flex-wrap justify-between mx-auto p-5">
             <div class="justify-between hidden w-full md:flex md:w-auto md:order-1 navbar -my-2" id="navbar-sticky">
 
@@ -29,11 +29,12 @@
                     <li><img src = "images\fav.png" class = "w-10"></li>
                     <li><a href = "index.html"> Home </a></li>
                     <li><a href = "intro.html"> Introduction </a></li>
-                    <li id = "active"><a href = "about.html"> About PHP </a></li>
-                    <li><a href = "#"> Hello World </a></li>
-                    <li><a href = "#"> Variables </a></li>
-                    <li><a href = "#"> Conditional Statements </a></li> 
-                    <li><a href = "#"> Loops </a></li>
+                    <li id = "active"><a href = "about.html"> About PHP</a></li>
+                    <li><a href = "installation.html"> Installation </a></li>
+                    <li><a href = "basic.html"> Basic Syntax </a></li>
+                    <li><a href = "conditionals.html"> Conditionals </a></li>
+                    <li><a href = "variables.html"> Variables </a></li>
+                    <li><a href = "loops.html"> Loops </a></li>
                 </ul>
                 
             </div>
@@ -81,14 +82,32 @@
                 It has also readily-improved error handling in this version, and it has been modified to have more stringent 
                 type declarations and new operators. Other benefits include:
 
-                <div class = "ml-16 my-8">
-                    <ul style = "list-style-type: circle;" >
-                        <li> <b>Union Types:</b> </li>
-                        <li> <b>JIT Compilation:</b> </li>
-                        <li> <b>Named Arguments:</b> </li>
-                        <li> <b>Match Expressions:</b> </li>
-                        <li> <b>Attributes:</b> </li>
-                        <li> <b>Nullsafe Operator:</b> </li>
+                <div class = "ml-16 mr-48 my-8">
+                    <ul style = "list-style-type: circle;" class = "enum">
+                        <li> <b>Union Types:</b> PHP 8 introduces support for <b>union types</b>--allowing variables, parameters, 
+                                and return types to accept multiple different types. This enhances type safety and flexibility 
+                                in function signatures. </li>
+
+                        <li> <b>JIT Compilation:</b> PHP 8 includes a <b>JIT compiler</b> that can significantly improve performance 
+                                for certain types of applications by compiling PHP code into machine code at runtime. 
+                                This can result in faster execution times for CPU-bound tasks. </li>
+
+                        <li> <b>Named Arguments:</b> Named arguments allow developers to specify function arguments by name, 
+                                rather than relying on their position. This improves code readability and makes it easier 
+                                to understand function calls with many parameters.</li>
+
+                        <li> <b>Match Expressions:</b> PHP 8 introduces the <b>match expression</b>, which provides a more concise 
+                                and expressive alternative to the traditional switch statement. It allows for more flexible matching 
+                                and does not suffer from accidental fall-through like switch.</li>
+
+                        <li> <b>Attributes:</b> PHP 8 introduces <b>attributes</b>, also known as annotations or decorators in other languages. 
+                                Attributes allow developers to add metadata to classes, functions, and other PHP elements, 
+                                which can be used for various purposes such as documentation, validation, 
+                                or framework-specific functionality. </li>
+
+                        <li> <b>Nullsafe Operator:</b> The nullsafe operator <i>(?->)</i> provides a convenient way to safely access properties 
+                                and methods of an object without risking a <i>"null pointer"</i> error. It short-circuits the expression 
+                                and returns <i>null</i> if any part of the chain evaluates to null.</li>
                     </ul>
                 </div>
 

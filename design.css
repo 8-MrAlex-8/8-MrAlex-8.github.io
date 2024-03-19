@@ -35,6 +35,10 @@
     margin: 5% 8% 2%;
 }
 
+.enum li {
+    margin-bottom: 1rem;
+}
+
 /* Element-based components */
 
 img {

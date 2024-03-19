@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">            <!-- Body Text: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">   <!-- Header Text: Almarai -->
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.CSS" rel=" stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PHP Tutorial Landing Page</title>
+</head>
+</head>
+
+<body>
+
+    <!-- Navbar component -->
+
+    <nav class="shadow-2xl bg-violet-800 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-black">
+        <div class="max-w-screen-xl flex flex-wrap justify-between mx-auto p-5">
+            <div class="justify-between hidden w-full md:flex md:w-auto md:order-1 navbar -my-2" id="navbar-sticky">
+
+                <ul class="inline flex flex-col items-center p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 
+                rtl:space-x-reverse md:flex-row md:mt-0 ">
+                    <li><img src = "images\fav.png" class = "w-10"></li>
+                    <li><a href = "index.html"> Home </a></li>
+                    <li><a href = "intro.html"> Introduction </a></li>
+                    <li><a href = "about.html"> About PHP</a></li>
+                    <li id = "active"><a href = "installation.html"> Installation </a></li>
+                    <li><a href = "basic.html"> Basic Syntax </a></li>
+                    <li><a href = "conditionals.html"> Conditionals </a></li>
+                    <li><a href = "variables.html"> Variables </a></li>
+                    <li><a href = "loops.html"> Loops </a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <section class = "mt-32 mx-12">
+        <div class = "text-3xl almarai-extrabold">
+            <h2> PHP Installation is quite easy to follow. Just go through the following steps: </h2>
+        </div>
+    </section>
+    
+    <section class = "mt-10 mx-12">
+        <div>
+            <ol class = "enum">
+                <li>    1. Go to your browser of choice.                                            </li>
+                <li>    2. Access <a href = https://www.php.net/downloads.php target = "_blank">
+                            https://www.php.net/downloads.php</a> in your browser.                  </li>
+                <li>    3. Find "Windows Downloads" under the 'Current Stable' version of PHP.      </li>
+                <li>    4. Pick the Zip file under the 'VS16 x64 Thread Safe' section.              </li>
+                <li>    5. Once downloaded, right-click on the zip file and pick 'Extract All...'   </li>
+                <li>    6. You may choose to rename the extracted folder into 'php-[version]'. 
+                            You can do this by right-clicking on the extracted folder.              </li>
+                <li>    7. Cut (Ctrl + X, or right-click >> Cut) the folder and paste it 
+                            inside your Local Disk (C:) drive.                                      </li>
+                <li>    8. Extract the file address from the address bar, 
+                            open your Windows Search Bar, and type in 
+                            "Edit the system environment variables".                                </li>
+                <li>    9. Click on Environment Variables. This will open the EV window.            </li>
+                <li>    10. Click on 'Path' under 'System Variables', then click 'Edit'.            </li>
+                <li>    11. Click 'New', paste the copied file directory, then click 'OK'.          </li>
+                <li>    12. To verify if the installation was correct, open your Command Prompt 
+                            then type "php --version". It should output the version of PHP 
+                            that you've downloaded.                                                 </li>
+                    
+            </ol>
+        </div>
+    </section>
+
+</body>
+
+</html>
+

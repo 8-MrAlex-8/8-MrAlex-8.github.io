@@ -9,7 +9,8 @@
 
     <?php
     echo "<h3> Hello World! </h3>";
-    print "<p> Comparing echo and print </p>";
+    echo "\n<p> This is a sample webpage.";
+    print "\n<p> Comparing echo and print </p>";
     ?>
 
 </body>

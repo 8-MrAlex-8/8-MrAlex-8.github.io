@@ -18,11 +18,11 @@
     <title>PHP Tutorial Landing Page</title>
 </head>
 
-<body>
+<body class = "color-100">
 
     <!-- Navbar component -->
 
-    <nav class="shadow-2xl bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-black">
+    <nav class="shadow-2xl color-400 fixed w-full z-20 top-0 start-0">
         <div class="max-w-screen-xl flex flex-wrap justify-between mx-auto p-5">
             <div class="justify-between hidden w-full md:flex md:w-auto md:order-1 navbar -my-2" id="navbar-sticky">
 
@@ -35,7 +35,6 @@
                     <li><a href="installation.html"> Installation </a></li>
                     <li><a href="basic.html"> Basic Syntax </a></li>
                     <li><a href="conditionals.html"> Conditionals </a></li>
-                    <li><a href="variables.html"> Variables </a></li>
                     <li><a href="loops.html"> Loops </a></li>
                 </ul>
 
@@ -44,17 +43,17 @@
     </nav>
 
     <section>
-        <div class="text-left text-black inter leading-loose mt-32 mx-12">
+        <div class="text-left text-black inter leading mt-32 mx-12">
             <h2 class="almarai-extrabold text-2xl mb-6"> What is PHP? </h2>
-            <div class="text-l ml-12">
-                <p>
+            <div class="text-l ml-12 my-8">
+                <p class = "leading-loose">
                     PHP stands for Hypertext Processor. It is a powerful tool for dynamic and interactive web pages that
                     is widely used and downloaded for free.
                     Scripts of this language are also executed on the server.
                 </p>
 
-                <div class="ml-16 my-8">
-                    <ul style="list-style-type: circle;">
+                <div class="ml-16 my-8 enum">
+                    <ul class = "list-disc">
                         <li> Text, HTML, CSS, JavaScript, and PHP code can all be found in PHP files. </li>
                         <li> The server runs PHP code, and the browser receives the output as plain HTML as result.
                         </li>
@@ -66,9 +65,9 @@
     </section>
 
     <section>
-        <div class="text-left text-black inter leading-loose mt-20 mx-12">
-            <h2 class="almarai-extrabold text-2xl mb-6"> Why PHP? </h2>
-            <div class="text-l ml-12">
+        <div class="text-left text-black inter leading-loose mx-12 mt-10">
+            <h2 class="almarai-extrabold text-2xl"> Why PHP? </h2>
+            <div class="text-l ml-12 my-8">
                 There are a lot of platforms which support PHP. You'll probably notice that PHP is supported by
                 Operating Systems such as Windows, Linux, Unix, and MacOS. It also works with nearly all servers 
                 in use today (Apache, IIS, etc.) and is also compatible with a variety of databases 
@@ -80,17 +79,16 @@
             </div>
         </div>
 
-        <div class="text-left text-black inter leading-loose mt-20 mx-12">
-            <h2 class="almarai-extrabold text-2xl mb-6"> What's new in PHP 8? </h2>
+        <div class="text-left text-black inter leading-loose mx-12">
+            <h2 class="almarai-extrabold text-2xl my-8"> What's new in PHP 8? </h2>
             <div class="text-l ml-12">
-                The current version of PHP is PHP8 which is significantly faster than the prior widely-used stable
-                release.
-                It has also readily-improved error handling in this version, and it has been modified to have more
-                stringent
-                type declarations and new operators. Other benefits include:
+                
+                <p> The current version of PHP is PHP8 which is significantly faster than the prior widely-used stable
+                release. It has also readily-improved error handling in this version, and it has been modified to have more
+                stringent type declarations and new operators. Other benefits include: </p>
 
                 <div class="ml-16 mr-48 my-8">
-                    <ul style="list-style-type: circle;" class="enum">
+                    <ul class="list-disc enum">
                         <li> <b>Union Types:</b> PHP 8 introduces support for <b>union types</b>--allowing variables,
                             parameters,
                             and return types to accept multiple different types. This enhances type safety and

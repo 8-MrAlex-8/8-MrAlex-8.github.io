@@ -19,11 +19,11 @@
 </head>
 </head>
 
-<body>
+<body class = "color-100">
 
     <!-- Navbar component -->
 
-    <nav class="shadow-2xl bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-black">
+    <nav class="shadow-2xl color-400 fixed w-full z-20 top-0 start-0">
         <div class="max-w-screen-xl flex flex-wrap justify-between mx-auto p-5">
             <div class="justify-between hidden w-full md:flex md:w-auto md:order-1 navbar -my-2" id="navbar-sticky">
 
@@ -36,7 +36,6 @@
                     <li id = "active"><a href = "installation.html"> Installation </a></li>
                     <li><a href = "basic.html"> Basic Syntax </a></li>
                     <li><a href = "conditionals.html"> Conditionals </a></li>
-                    <li><a href = "variables.html"> Variables </a></li>
                     <li><a href = "loops.html"> Loops </a></li>
                 </ul>
                 
@@ -45,35 +44,46 @@
     </nav>
 
     <section class = "mt-32 mx-12">
-        <div class = "text-3xl almarai-extrabold">
-            <h2> PHP Installation is quite easy to follow. Just go through the following steps: </h2>
-        </div>
-    </section>
-    
-    <section class = "mt-10 mx-12">
-        <div>
-            <ol class = "enum">
-                <li>    1. Go to your browser of choice.                                            </li>
-                <li>    2. Access <a href = https://www.php.net/downloads.php target = "_blank" class = "clickable">
-                            https://www.php.net/downloads.php</a> in your browser.                  </li>
-                <li>    3. Find "Windows Downloads" under the 'Current Stable' version of PHP.      </li>
-                <li>    4. Pick the Zip file under the 'VS16 x64 Thread Safe' section.              </li>
-                <li>    5. Once downloaded, right-click on the zip file and pick 'Extract All...'   </li>
-                <li>    6. You may choose to rename the extracted folder into 'php-[version]'. 
-                            You can do this by right-clicking on the extracted folder.              </li>
-                <li>    7. Cut (Ctrl + X, or right-click >> Cut) the folder and paste it 
-                            inside your Local Disk (C:) drive.                                      </li>
-                <li>    8. Extract the file address from the address bar, 
-                            open your Windows Search Bar, and type in 
-                            "Edit the system environment variables".                                </li>
-                <li>    9. Click on Environment Variables. This will open the EV window.            </li>
-                <li>    10. Click on 'Path' under 'System Variables', then click 'Edit'.            </li>
-                <li>    11. Click 'New', paste the copied file directory, then click 'OK'.          </li>
-                <li>    12. To verify if the installation was correct, open your Command Prompt 
-                            then type "php --version". It should output the version of PHP 
-                            that you've downloaded.                                                 </li>
-                    
-            </ol>
+        <div class="text-left text-black inter leading-loose">
+
+            <h2 class = "almarai-extrabold text-2xl mb-6"> PHP Installation </h2>
+            
+            <p class = "text-l mx-12">
+                As shown so far, PHP proves to be a very great tool for web developers to use.
+                Now, it's time for you to try it by installing it yourself! PHP is easy to install;
+                you just have to follow the steps below. </p>
+                
+            <p class = "my-4 mx-12"><i> Note that there are 2 steps to the installation:
+                Installing PHP itself, and installing the PHP Development Environment (ex. XAMPP).
+            </i></p>
+
+            <h3 class = "almarai-extrabold text-2xl my-6"> Installing PHP </h3>
+                <ol class = "list-decimal mx-16">
+                    <li>    Go to your browser of choice.                                               </li>
+                    <li>    Access <a href = https://www.php.net/downloads.php 
+                            target = "_blank" class = "clickable">
+                                https://www.php.net/downloads.php</a> in your browser.                  </li>
+                    <li>    Find "Windows Downloads" under the 'Current Stable' version of PHP.         </li>
+                    <li>    Pick the Zip file under the 'VS16 x64 Thread Safe' section.                 </li>
+                    <li>    Once downloaded, right-click on the zip file and pick 'Extract All...'      </li>
+                    <li>    You may choose to rename the extracted folder into 'php-[version]'. 
+                                You can do this by right-clicking on the extracted folder.              </li>
+                    <li>    Cut (Ctrl + X, or right-click >> Cut) the folder and paste it 
+                                inside your Local Disk (C:) drive.                                      </li>
+                    <li>    Extract the file address from the address bar, 
+                                open your Windows Search Bar, and type in 
+                                "Edit the system environment variables".                                </li>
+                    <li>    Click on Environment Variables. This will open the EV window.               </li>
+                    <li>    Click on 'Path' under 'System Variables', then click 'Edit'.                </li>
+                    <li>    Click 'New', paste the copied file directory, then click 'OK'.              </li>
+                    <li>    To verify if the installation was correct, open your Command Prompt 
+                                then type "php --version". It should output the version of PHP 
+                                that you've downloaded.                                                 </li>
+                </ol>
+
+            <h3 class = "almarai-extrabold text-2xl my-6"> Installing the PHP Dev Environment </h3>
+
+
         </div>
     </section>
 

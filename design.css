@@ -47,6 +47,23 @@
     margin-bottom: 1rem;
 }
 
+.color-100 {
+    background-scolor: #F7F2EF;
+}
+
+.color-200 {
+    color: #8F88AF;
+}
+
+.color-300 {
+    color: #E1DDD2;
+}
+
+.color-400 {
+    background-color: #555A54;
+}
+
+
 /* Element-based components */
 
 img {
@@ -73,7 +90,7 @@ ul {
     "slnt" 0;
 }
 
-.almarai-extrabold {
+.almarai-extrabold{
     font-family: "Almarai", sans-serif;
     font-weight: 800;
     font-style: normal;
